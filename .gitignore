@@ -1,0 +1,57 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+
+# ML artifacts — checkpoints and saved models
+*.pt
+*.pth
+*.ckpt
+*.ckpt.*
+checkpoint
+saved_model/
+result_diffusion_model/
+Results_*/
+wandb/
+
+# Data (large binary / raw)
+*.npy
+*.npz
+generated_images*/
+publish_images/
+reconstruction/
+
+# Jupyter notebooks
+*.ipynb
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+
+# Coverage / lint caches
+.coverage
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# TensorBoard logs
+logs/
